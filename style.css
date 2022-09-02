@@ -1,0 +1,74 @@
+
+.jumbotron{
+    padding-top: 6rem;
+    background:rgb(184, 199, 199);
+}
+
+#project{
+    background:rgb(184, 199, 199);
+}
+
+footer{
+    background-color: teal;
+    color: white;
+    text-align: center;
+}
+
+.btn .btn-primary{
+    background:teal;
+    padding: 7px;
+    border:none;
+    color: white;
+    --bs-btn-border-radius: 2rem;
+}
+
+section{
+    padding-top: 6rem;
+}
+
+.jumbotron .btn{
+    background: teal;
+    color: white;
+    border: none;
+}
+
+#project .btn{
+    border: none;
+}
+
+.navbar .nav-link active{
+    --bs-btn-border-radius: 2rem;
+}
+
+
+
+
+/* Version Deskop */
+@media (min-width: 992px){
+    .nav-link:hover{
+        border-bottom: 3px solid white;
+        padding-top: 10px;
+        margin-bottom: -13px;
+        transition: .5s;
+    }
+    
+ion-icon{
+    font-size: 400px;
+}
+}
+
+/* Version Mobile */
+@media (max-width:992px){
+    .nav-item{
+        background: rgb(40, 62, 62);
+    }
+    
+    .nav-link{
+        margin-left: 20px;
+    }
+    
+ion-icon{
+    font-size: 200px;
+}
+ 
+}
